@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">	
+	<welcome-file-list>
+	  <welcome-file>register.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 加载spring容器 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:spring/applicationContext*.xml</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+  
+   <!-- 前端控制器 -->
+   <servlet>
+      <servlet-name>springmvc</servlet-name>
+      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+      <!-- 加载springmvc的配置文件 -->
+      <init-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring/springmvc.xml</param-value>
+      </init-param>
+   </servlet>  
+   <servlet-mapping>
+     <servlet-name>springmvc</servlet-name>
+       <!-- 
+       url-pattern
+                  可以设置/,代表springmvc可以处理所有的请求，但是不会处理静态文件（css文件，js，图片），可以处理restful请求。
+                  可以设置.action,.do,代表springmvc可以处理以.action或.do结尾的请求          
+                  不可以设置/*,如果你配置/*,springmvc会把返回的jsp，也处理了。这就有问题了。 
+      -->
+     <url-pattern>/</url-pattern>
+   </servlet-mapping>
+   
+   <!-- 乱码处理的过滤器 -->
+   <filter>
+      <filter-name>EncodingFilter</filter-name>
+      <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+      <init-param>
+         <param-name>encoding</param-name>
+         <param-value>utf-8</param-value>
+      </init-param>
+   </filter>
+   
+   <filter-mapping>
+      <filter-name>EncodingFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+   </filter-mapping>
+	
+	
+	
+	
+	
+</web-app>

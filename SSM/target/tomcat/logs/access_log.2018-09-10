@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:59:55 +0800] "GET / HTTP/1.1" 200 4660 http-bio-8081-exec-3 1570
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:59:59 +0800] "POST /register HTTP/1.1" 200 4862 http-bio-8081-exec-5 1566
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:01:56 +0800] "POST /register HTTP/1.1" 200 4912 http-bio-8081-exec-7 335
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:03:09 +0800] "POST /register HTTP/1.1" 200 4912 http-bio-8081-exec-10 119
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:03:19 +0800] "POST /isExist HTTP/1.1" 200 1 http-bio-8081-exec-3 794
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:03:24 +0800] "POST /isExist HTTP/1.1" 200 1 http-bio-8081-exec-5 5
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:01 +0800] "POST /register HTTP/1.1" 200 5094 http-bio-8081-exec-7 1424
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:02 +0800] "GET /css/pages-register.css HTTP/1.1" 304 - http-bio-8081-exec-9 162
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:02 +0800] "GET /plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 304 - http-bio-8081-exec-1 31
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:02 +0800] "GET /css/webbase.css HTTP/1.1" 304 - http-bio-8081-exec-7 166
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:02 +0800] "GET /img/icons.png HTTP/1.1" 304 - http-bio-8081-exec-7 5
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:16:13:42 +0800] "POST /register HTTP/1.1" 200 5076 http-bio-8081-exec-6 291

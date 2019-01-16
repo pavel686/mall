@@ -1,0 +1,4 @@
+十一月 15, 2018 11:30:41 上午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+信息: Package starting up at Thu Nov 15 11:30:41 GMT+08:00 2018
+十一月 15, 2018 11:30:44 上午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+信息: Latest version of package has already been enabled in the workspace; check finished in 63ms

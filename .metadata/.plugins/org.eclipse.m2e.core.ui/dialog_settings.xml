@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="issueManagementUrl">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Workspaces_MALL\WxPayAPI_JAVA\java_sdk_v3.0.9"/>
+			<item value="E:\Workspaces_MALL\mall-user-web"/>
+			<item value="E:\Workspaces_MALL\springbootDemo"/>
+			<item value="E:\Workspaces_MALL\mall-sellergoods-service"/>
+			<item value="E:\Workspaces_MALL\mall-seller-web"/>
+			<item value="E:\Workspaces_MALL\mall-search-service"/>
+			<item value="E:\Workspaces_MALL\mall-sorl-util"/>
+			<item value="E:\Workspaces_MALL\SSM"/>
+			<item value="E:\Workspaces_MALL\dubboxdemo-service"/>
+			<item value="E:\Workspaces_MALL\maven-parent"/>
+			<item value="E:\Workspaces_MALL\maven-test01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="groupId">
+		</list>
+		<list key="package">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Workspaces_MALL\WxPayAPI_JAVA"/>
+			<item value="D:\dysms_java\java\api_demo\alicom-dysms-api"/>
+			<item value="D:\dysms_java\java\api_sdk\aliyun-java-sdk-dysmsapi"/>
+			<item value="D:\dysms_java\java\api_sdk\aliyun-java-sdk-core"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.cblue"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="mall-pay-service"/>
+			<item value="mall-parent"/>
+			<item value="mall-pay-interface"/>
+			<item value="CasClientDemo01"/>
+			<item value="mall-user-web"/>
+			<item value="mall-user-service"/>
+			<item value="mall-user-interface"/>
+			<item value="mall-sms"/>
+			<item value="springbootDemo"/>
+			<item value="springjms_producer"/>
+			<item value="SpringJMSDemo"/>
+			<item value="mall-page-service"/>
+			<item value="mall-page-interface"/>
+			<item value="FreemarkerDemo"/>
+			<item value="mall-search-web"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.2-SNAPSHOT"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

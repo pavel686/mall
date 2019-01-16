@@ -1,0 +1,3 @@
+com\cblue\search\service\impl\SearchItemServiceImpl.class
+com\cblue\search\service\impl\ItemSearchDeleteMessageListener.class
+com\cblue\search\service\impl\ItemSearchMessageListener.class

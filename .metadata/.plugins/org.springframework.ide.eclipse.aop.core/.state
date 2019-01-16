@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="mall-pay-service"/>
+<aop-project name="mall-main-web"/>
+<aop-project name="mall-sellergoods-service"/>
+<aop-project name="mall-manager-web"/>
+<aop-project name="mall-cart-web"/>
+<aop-project name="mall-common"/>
+<aop-project name="mall-seller-web"/>
+<aop-project name="mall-search-service"/>
+<aop-project name="mall-pojo"/>
+<aop-project name="mall-dao"/>
+<aop-project name="mall-user-web"/>
+<aop-project name="mall-search-interface"/>
+<aop-project name="mall-user-service"/>
+<aop-project name="CasClientDemo03"/>
+<aop-project name="mall-order-service"/>
+<aop-project name="mall-cart-service"/>
+<aop-project name="mall-sms"/>
+<aop-project name="mall-sellergoods-interface"/>
+<aop-project name="mall-page-service"/>
+<aop-project name="mall-search-web"/>
+<aop-project name="mall-content-interface"/>
+<aop-project name="mall-content-service"/>
+</aop-reference-model>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>内置服务</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+   <script src="../js/angular.min.js"></script>
+   <script type="text/javascript">
+     //定义两数相加模块  myapp是模块的名字
+     var app = angular.module('myapp',[]);
+     //定义控制器
+     app.controller("myController",function($scope,$http){
+        $scope.showList = function(){
+          $http.get('data.json').success(function(result){
+            $scope.students = result;
+          });
+        }
+         
+     });
+   
+   
+   </script>
+  </head>
+  
+  <body ng-app="myapp" ng-controller="myController">
+     <table border="1">
+       <tr ng-repeat="s in students">
+         <td>{{s.name}}</td>
+         <td>{{s.age}}</td>
+       </tr>
+     </table>
+  </body>
+</html>

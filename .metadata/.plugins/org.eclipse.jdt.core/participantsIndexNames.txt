@@ -1,0 +1,11 @@
+INDEX VERSION 1.126
+E:\Workspaces_MALL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1102244623.index
+\CasClientDemo02\src\main\java
+E:\Workspaces_MALL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2831570811.index
+\SSM\src\main\java
+E:\Workspaces_MALL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2050980729.index
+\mall-sellergoods-service\src\main\java
+E:\Workspaces_MALL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1960536402.index
+\SSM\src\main\java
+E:\Workspaces_MALL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\304656523.index
+\CasClientDemo01\src\main\java

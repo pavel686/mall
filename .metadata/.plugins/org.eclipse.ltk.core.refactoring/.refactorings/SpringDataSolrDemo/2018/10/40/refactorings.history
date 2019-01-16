@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringDataSolrDemo/src/main/resources/applicationContext-service.xml&apos; to &apos;applicationContext-solr.xml&apos;" description="Rename resource &apos;applicationContext-service.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/applicationContext-service.xml" name="applicationContext-solr.xml" stamp="1538807373248" updateReferences="true"/>
+</session>

@@ -1,0 +1,152 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'register.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/webbase.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/pages-register.css" />
+    <script type="text/javascript" src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="https://kyfw.12306.cn/otn/resources/js/rich/calender_double/datepicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+     function checkUserName(){
+       //alert("222");
+        var name = $('#username').val();
+        $.ajax({
+            type : "post",
+            url : '/isExist',
+            data : "username=" + name,
+            success : function(data) {
+                //alert(data);
+                var showResult = $('#showResult');
+                if(data=="1"){
+                  //showResult.html('<font color="green">用户名可以使用</font>');
+                  showResult.html('<font color="green">✔</font>');
+                }else{
+                  //showResult.html('<font color="red">用户名已经存在</font>');
+                  showResult.html('<font color="red">✘</font>');
+                }
+            }
+        });
+     
+     }
+     
+     $(document).ready(function(){
+        //alert("111");
+        $("#username").blur(function(){
+            checkUserName();
+        });
+     });
+     
+     
+     function checkPassword(){
+       var userpass = $("#userpass").val();
+       alert(userpass);
+       if(userpass==null){
+         return false;
+       }
+       var reuserpass = $("#reuserpass").val();
+       alert(reuserpass);
+       if(userpass==reuserpass){
+         return true;
+       }
+       return false;
+     }
+     
+     
+    
+    </script>
+  </head>
+  <body>
+    	<div class="register py-container">
+		<!--head-->
+		<div class="logoArea">
+			<a href="" class="logo"></a>
+		</div>
+		<!--register-->
+		<div class="registerArea">
+			<h3>用户注册<span class="go">我有账号，去<a href="login.jsp" target="_blank">登陆</a></span></h3>
+			<div class="info">
+			    <div style="margin:0 140px">
+			       <c:if test="${allErrors!=null}">
+				       <c:forEach items="${allErrors}" var="e">
+				          <font color="red">${e.defaultMessage}</font> <br/>
+				       </c:forEach>
+				   </c:if>
+				 </div>
+				<form class="sui-form form-horizontal" action="register" method="post" enctype="multipart/form-data" onsubmit="return checkPassword()">
+				
+					<div class="control-group">
+						<label class="control-label">登陆名：</label>
+						<div class="controls">
+							<input type="text" id="username" name="username" placeholder="登陆名" class="input-xfat input-xlarge">
+							<span id="showResult"><span> 
+						</div>
+					</div>
+					
+					<div class="control-group">
+						<label class="control-label">登陆密码：</label>
+						<div class="controls">
+							<input type="password" id="userpass" name="userpass" placeholder="登陆密码" class="input-xfat input-xlarge">
+						</div>
+					</div>
+					
+					<div class="control-group">
+						<label class="control-label">确认密码：</label>
+						<div class="controls">
+							<input type="password" id="reuserpass" name="reuserpass" placeholder="登陆密码" class="input-xfat input-xlarge">
+						</div>
+					</div>
+					
+					<div class="control-group">
+						<label class="control-label">出生年月：</label>
+						<div class="controls">
+							<input type="text" name="birthday" value="1990-10-10" placeholder="出生日期" class="input-xfat input-xlarge">
+						</div>
+					</div>
+					
+					<div class="control-group">
+						<label class="control-label">头像：</label>
+						<div class="controls">
+							<input type="file" name="uploadFile" placeholder="头像" class="input-xfat input-xlarge">
+						</div>
+					</div>
+					
+					
+					<div class="control-group">
+						<label class="control-label"></label>
+						<div class="controls btn-reg">
+							<input type="submit" class="sui-btn btn-block btn-xlarge btn-danger" value="注册">
+						</div>
+					</div>
+				</form>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!--foot-->
+		<div class="py-container copyright">
+			<ul>
+				<li>关于我们</li>
+				<li>联系我们</li>
+			</ul>
+			<div class="address">地址：北京市昌平区蓝天集团    邮编：100000 电话：400-600-4000 传真：010-8200000</div>
+			<div class="beian">京ICP备08001421号京公网安备110108000002
+			</div>
+		</div>
+	</div>
+
+  </body>
+</html>

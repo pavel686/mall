@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:10:56:49 +0800] "GET / HTTP/1.1" 302 - http-bio-9200-exec-1 77
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:11:06:35 +0800] "GET / HTTP/1.1" 302 - http-bio-9200-exec-4 8
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:11:29:53 +0800] "GET /?ticket=ST-2-wN7R2MXlMytNVXPClqYX-cas01.example.org HTTP/1.1" 302 - http-bio-9200-exec-7 673
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:11:29:53 +0800] "GET /;jsessionid=D91A90C689135CF89EE694E796FF56ED HTTP/1.1" 404 1039 http-bio-9200-exec-8 136
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:11:29:53 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9200-exec-9 2
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:11:29:57 +0800] "GET / HTTP/1.1" 404 951 http-bio-9200-exec-1 2

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mall-seller-web/src/main/resources/spring/spring-activemq.xml&apos; to &apos;springmvc-activemq.xml&apos;" description="Rename resource &apos;spring-activemq.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/spring/spring-activemq.xml" name="springmvc-activemq.xml" stamp="1540450731287" updateReferences="true"/>
+</session>

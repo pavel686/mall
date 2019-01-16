@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=mall-sellergoods-interface/src\/main\/java&lt;com.cblue.sellergoods.service{BrandService.java[BrandService" modifiers="513" timestamp="1536217309872"/>
+<typeInfo handle="=mall-pojo/D:\/java\/MyEclipse Professional 2014\/binary\/com.sun.java.jdk7.win32.x86_64_1.7.0.u45\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1381899904000"/>
+<typeInfo handle="=mall-seller-web/D:\/mavenRepo\/org\/springframework\/security\/spring-security-core\/4.0.3.RELEASE\/spring-security-core-4.0.3.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetailsService.class[UserDetailsService" modifiers="1537" timestamp="1533264725188"/>
+<typeInfo handle="=mall-seller-web/D:\/mavenRepo\/org\/springframework\/security\/spring-security-core\/4.0.3.RELEASE\/spring-security-core-4.0.3.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetailsChecker.class[UserDetailsChecker" modifiers="1537" timestamp="1533264725188"/>
+<typeInfo handle="=mall-search-interface/src\/main\/java&lt;com.cblue.search{SearchItemService.java[SearchItemService" modifiers="513" timestamp="1539932945010"/>
+<typeInfo handle="=mall-page-interface/src\/main\/java&lt;com.cblue.page.service{ItemPageService.java[ItemPageService" modifiers="513" timestamp="1540453329546"/>
+<typeInfo handle="=mall-search-service/D:\/mavenRepo\/org\/apache\/geronimo\/specs\/geronimo-jms_1.1_spec\/1.1.1\/geronimo-jms_1.1_spec-1.1.1.jar&lt;javax.jms(MessageListener.class[MessageListener" modifiers="1537" timestamp="1540348385559"/>
+<typeInfo handle="=mall-pay-interface/src\/main\/java&lt;com.cblue.pay.service{WXPayService.java[WXPayService" modifiers="513" timestamp="1542157280808"/>
+</typeInfoHistroy>

@@ -1,0 +1,56 @@
+十一月 14, 2018 9:06:05 下午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+信息: Package starting up at Wed Nov 14 21:06:05 GMT+08:00 2018
+十一月 14, 2018 9:06:10 下午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+信息: Latest version of package has already been enabled in the workspace; check finished in 46ms
+十一月 14, 2018 9:06:10 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-order-service/src/main/resources/spring/applicationContext-tx.xml]
+十一月 14, 2018 9:06:11 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-order-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:11 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-content-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:11 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-content-service/src/main/resources/spring/applicationContext-tx.xml]
+十一月 14, 2018 9:06:15 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-cart-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:15 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-cart-service/src/main/resources/spring/applicationContext-tx.xml]
+十一月 14, 2018 9:06:16 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-search-service/src/main/resources/spring/applicationContext-solr.xml]
+十一月 14, 2018 9:06:16 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-search-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:16 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-search-service/src/main/resources/spring/applicationContext-activemq.xml]
+十一月 14, 2018 9:06:23 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-seller-web/src/main/resources/spring/spring-security.xml]
+十一月 14, 2018 9:06:24 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-seller-web/src/main/resources/spring/springmvc.xml]
+十一月 14, 2018 9:06:24 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-seller-web/src/main/resources/spring/springmvc-activemq.xml]
+十一月 14, 2018 9:06:29 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-search-web/src/main/resources/spring/springmvc.xml]
+十一月 14, 2018 9:06:34 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-manager-web/src/main/resources/spring/spring-activemq.xml]
+十一月 14, 2018 9:06:34 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-manager-web/src/main/resources/spring/spring-security.xml]
+十一月 14, 2018 9:06:34 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-manager-web/src/main/resources/spring/springmvc.xml]
+十一月 14, 2018 9:06:36 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-sellergoods-service/src/main/resources/spring/applicationContext-tx.xml]
+十一月 14, 2018 9:06:36 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-sellergoods-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:41 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-cart-web/src/main/resources/spring/spring-security.xml]
+十一月 14, 2018 9:06:41 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-cart-web/src/main/resources/spring/springmvc.xml]
+十一月 14, 2018 9:06:44 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-user-service/src/main/resources/spring/applicationContext-jms-producer.xml]
+十一月 14, 2018 9:06:44 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-user-service/src/main/resources/spring/applicationContext-tx.xml]
+十一月 14, 2018 9:06:44 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-user-service/src/main/resources/spring/applicationContext-service.xml]
+十一月 14, 2018 9:06:46 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-user-web/src/main/resources/spring/springmvc.xml]
+十一月 14, 2018 9:06:46 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-user-web/src/main/resources/spring/spring-security.xml]
+十一月 14, 2018 9:06:49 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [E:/Workspaces_MALL/mall-pay-service/src/main/resources/spring/applicationContext-service.xml]

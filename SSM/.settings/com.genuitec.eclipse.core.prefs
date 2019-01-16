@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=src/main/webapp/plugins,src/main/webapp/WEB-INF/jsp/register.jsp,src/main/webapp/register.jsp
+validator.Unchecked=
